@@ -1,0 +1,29 @@
+.body{
+	background-color: rgb(92, 187, 235);
+}
+
+.header{
+	background-color: rgb(10, 51, 128);
+}
+
+.menu1{
+	text-align: center;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.menu2{
+	text-shadow: 2px 1px black;
+	display: inline;
+	width: 70px;
+	font-size: 20px;
+	margin-left: 70px;
+	position: relative;
+	top: -40px;
+}
+/* unvisited link */
+a:link{
+	color: white;
+}
+

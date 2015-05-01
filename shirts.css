@@ -4,6 +4,8 @@
 
 .header{
 	background-color: rgb(10, 51, 128);
+	height: 224px;
+	background: url('images/mainheader.jpg');
 }
 
 .menu1{
@@ -16,11 +18,11 @@
 .menu2{
 	text-shadow: 2px 1px black;
 	display: inline;
-	width: 70px;
+	width: 40px;
 	font-size: 20px;
-	margin-left: 70px;
+	margin-left: 50px;
 	position: relative;
-	top: -40px;
+	top: -45px;
 }
 /* unvisited link */
 a:link{
@@ -28,3 +30,66 @@ a:link{
 }
 
 
+.main-content{
+	
+	background-color: white;
+	width: 1040px;
+	margin:0 auto;
+}
+
+.container{
+	width: 700px;
+	height: 500px;
+}
+
+.footer{
+	font-color:white;
+	background-color: rgb(10, 51, 128);
+	height: 255px;
+}
+
+.footertext{
+	margin-left: 50px;
+	margin-top: 20px;
+	color: white;
+	float: left;
+	width: 200px;
+	height: 450px;
+}
+
+.headermenu{
+	float: right;
+	margin-right: 15px;
+	margin-top: -210px;
+	font-size: 20px;
+	color:white;
+	text-shadow: 2px 1px black;
+
+}
+
+.comfort{
+	margin-left: 110px;
+}
+
+.comfort1{
+	display: inline;
+	padding: 20px;
+	margin-left: 30px;
+	width: 362px;
+	display: inline-block;
+	color: black;
+}
+
+.comfort1 img{
+	width: 100%;
+}
+
+.btn{
+	float: right;
+	margin-top: 5px;
+
+}
+
+.strike{
+	text-decoration: line-through;
+}

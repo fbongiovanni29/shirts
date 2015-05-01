@@ -27,4 +27,11 @@ a:link{
 	color: white;
 }
 
+img {
+	width: 100%;
+}
 
+.container {
+	text-align: center;
+	
+}

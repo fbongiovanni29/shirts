@@ -33,11 +33,23 @@ img {
 
 .container {
 	text-align: center;
-	
 }
 
 .col-centered{
 	float: none;
 	margin: 0 auto;
 	margin-top: 10px;
+}
+
+.col-bot{
+	margin-bottom: 10px;
+}
+
+p {
+	color: white;
+	margin-top: 3px;
+}
+
+.glyphicon{
+	font-size: 300%;
 }

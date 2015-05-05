@@ -12,46 +12,59 @@
 		<link rel='stylesheet' type='text/css'
         href="products.css">
 		<body class="body">
-			<h1 class="header"> <img src="images/main header.jpg"> </h1>
+			<h1 class="header"> <img src="images/mainheader.jpg"> </h1>
 			<ul class="menu1">
 				<li class="menu2"><a href="index.html">Home</a></li>
 				<li class="menu2"><a href="design place">Design Place</a></li>
 				<li class="menu2"><a href="products.html">Products</a></li>
 				<li class="menu2"><a href="track your order.html">Track Your Order</a></li>
-				<li class="menu2"><a href="your account.html">Your Account</a></li>
+				<li class="menu2"><a href="your_account.html">Your Account</a></li>
 			</ul>
 
 			<div class="container-fluid">
 				<div class="container">
 				<div class="row">
-					<div class="col-md-4">
+					<div class="col-md-4 col-bot">
 						<img src="images/shirt1.jpg">
-						<input type="submit" class="btn btn-primary btn-large active" onClick="AddValue1()"  value="$12.99">
+						<p>$12.99</p>
+						<input type="submit" class="btn btn-primary btn-large active" onClick="AddValue1()"  value="Add to Cart">
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 col-bot">
 						<img src="images/shirt2.jpg">
-						<input type="submit" class="btn btn-primary btn-large active" onClick="AddValue2()" value="$19.99">
+						<p>$19.99</p>
+						<input type="submit" class="btn btn-primary btn-large active" onClick="AddValue2()" value="Add to Cart">
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 col-bot">
 						<img src="images/shirt3.jpg">
-						<input type="submit" class="btn btn-primary btn-large active" onCLick="AddValue3()" value="$17.99">
+						<p>$17.99</p>
+						<input type="submit" class="btn btn-primary btn-large active" onCLick="AddValue3()" value="Add to Cart">
 					</div>
 				</div>
 	                          <div class="row">
                                         <div class='col-md-4'>
 						<img src="images/shirt4.jpg">
-						<input type="submit" class="btn btn-primary btn-large active" onClick="AddValue4()" value="$21.99">
+						<p>$21.99</p>
+						<input type="submit" class="btn btn-primary btn-large active" onClick="AddValue4()" value="Add to Cart">
 					</div>
                                         <div class="col-md-4">
 						<img src="images/shirt5.jpg">
-						<input type="submit" class="btn btn-primary btn-large active" onCLick="AddValue5()" value="$15.99">
+						<p>$15.99</p>
+						<input type="submit" class="btn btn-primary btn-large active" onCLick="AddValue5()" value="Add to Cart">
 					</div>
                                         <div class="col-md-4">
 						<img src="images/shirt6.jpg">
-						<input type="submit" class="btn btn-primary btn-large active" onClick="AddValue6()" value="$23.99">
+						<p>$23.99</p>
+						<input type="submit" class="btn btn-primary btn-large active" onClick="AddValue6()" value="Add to Cart">
 					</div>
                        </div>
 				 </div>
 			</div>	
+			<div class="row">
+			<div class="col-md-1 col-centered">
+			<button type="submit" class="btn btn-primary btn-larg active" onClick="AddTotal()">
+			<p>Check Total</p><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+			</button>
+			</div>
+			</div>
 		</body>
 	</HTML>
